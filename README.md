@@ -1,3 +1,5 @@
 # README
 
-Simple theme based on dark Xcode colors
+Simple vscode theme based on the dark Xcode colors.
+
+So far tuned mainly for c++, more languages to come.
