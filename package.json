@@ -1,10 +1,11 @@
 {
     "name": "fcode",
     "displayName": "fcode",
+    "publisher": "flanggut",
     "description": "Color Theme",
     "version": "0.0.1",
     "engines": {
-        "vscode": "^1.52.0"
+        "vscode": "^1.50.0"
     },
     "categories": [
         "Themes"
