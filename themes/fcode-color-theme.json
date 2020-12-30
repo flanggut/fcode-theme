@@ -645,10 +645,20 @@
     {
       "name": "[C/CPP] Storage",
       "scope": [
-        "storage.type.built-in.primitive.cpp",
+        "storage.type.built-in.primitive.cpp"
+      ],
+      "settings": {
+        "foreground": "#89BFB3",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "[C/CPP] Storage",
+      "scope": [
         "storage.modifier.specifier.const.cpp"
       ],
       "settings": {
+        "foreground": "#89BFB3",
         "fontStyle": ""
       }
     },
@@ -673,21 +683,15 @@
       }
     },
     {
-      "name": "[C/CPP] Integer suffix",
+      "name": "[C/CPP] Numbers",
       "scope": [
         "keyword.other.unit.suffix.integer.cpp",
         "keyword.other.unit.suffix.floating-point.cpp",
+        "punctuation.separator.constant.numeric.cpp"
       ],
       "settings": {
         "foreground": "#D7C985",
         "fontStyle": ""
-      }
-    },
-    {
-      "name": "[C/CPP] Punctuation Separator Pointer-Access",
-      "scope": "punctuation.separator.constant.numeric.cpp",
-      "settings": {
-        "foreground": "#D7C985"
       }
     },
     {
