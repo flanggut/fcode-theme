@@ -639,6 +639,15 @@
       }
     },
     {
+      "name": "Control directove",
+      "scope": [
+        "keyword.control.directive"
+      ],
+      "settings": {
+        "foreground": "#F3A45F"
+      }
+    },
+    {
       "name": "[C/CPP] White",
       "scope": [
         "punctuation.terminator.statement.cpp"
@@ -670,7 +679,7 @@
     {
       "name": "[C/CPP] Storage",
       "scope": [
-        "storage.type.class.doxygen.cpp",
+        "storage.type.class.doxygen.cpp"
       ],
       "settings": {
         "foreground": "#d9d9d9",
@@ -694,17 +703,6 @@
       "scope": [
         "source.c meta.preprocessor.include",
         "source.c string.quoted.other.lt-gt.include"
-      ],
-      "settings": {
-        "foreground": "#F3A45F"
-      }
-    },
-    {
-      "name": "[C/CPP] Meta Preprocessor Include keyword",
-      "scope": [
-        "keyword.control.directive.include.cpp",
-        "keyword.control.directive.pragma.cpp",
-        "keyword.control.directive.define.cpp",
       ],
       "settings": {
         "foreground": "#F3A45F"
@@ -898,6 +896,6 @@
       "settings": {
         "foreground": "#EF82B1"
       }
-    },
+    }
   ]
 }
