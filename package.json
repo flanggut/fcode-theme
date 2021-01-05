@@ -1,22 +1,23 @@
 {
-    "name": "fcode",
-    "displayName": "fcode",
-    "publisher": "flanggut",
-    "description": "Color Theme",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.50.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "fcode",
-                "uiTheme": "vs-dark",
-                "path": "./themes/fcode-color-theme.json"
-            }
-        ]
-    }
+  "name": "fcode",
+  "displayName": "fcode",
+  "publisher": "flanggut",
+  "repository": "https://github.com/flanggut/fcode-theme",
+  "description": "Color Theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "fcode",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fcode-color-theme.json"
+      }
+    ]
+  }
 }
